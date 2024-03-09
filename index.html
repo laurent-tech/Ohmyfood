@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohmyfood</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo-conteneur"><img src="/images/logo/ohmyfood@2x.svg" alt="logo-ohmyfood" class="logo-ohmyfood-img"></div>
+            <div>
+            <form class="boite-recherche" method="get" action="#">
+            <div class="icone-champ-conteneur">
+            <i class="icone-carte fa-solid fa-location-dot fa-lg"></i>
+            <input class="champ-saisie" type="search" value="Paris, Belleville">
+            </div>
+            </form>
+            </div>
+        </nav>
+        <div class="reservation"><!--Conteneur slogan-->
+            <h1 class="reservation-titre">Réservez le menu qui vous convient</h1>
+            <p class="reservation-description">Découvrez les restaurants d'exception, selectionés par nos soins. </p>
+            <button class="explorer-restaurants">Explorer nos restaurants</button>
+        </div>
+    </header>
+    <main>
+    <section class="fonctionnement"><!--Conteneur Fonctionnement-->
+           <h1 class="titre-index">Fonctionnement</h1>
+        
+        <div class="fonction-block">
+            <button class="bouton-fonction">
+              <span class="numero-fonction">1</span>
+              <i class="fa-sharp fa-solid fa-mobile-screen fa-lg" style="color: #808080;"></i>
+              <div class="contenu-fonction">
+                <p class="texte-fonction">Choisissez un restaurant</p> 
+              </div>
+            </button>
+            <button class="bouton-fonction">
+              <span class="numero-fonction">2</span>
+              <i class="fa-solid fa-list fa-lg" style="color: #808080;"></i>
+              <div class="contenu-fonction">
+                <p class="texte-fonction">Composez votre menu</p>
+              </div>
+            </button>
+            <button class="bouton-fonction">
+              <span class="numero-fonction">3</span>
+              <i class="fa-solid fa-store fa-lg" style="color: #9356dc;"></i>
+              <div class="contenu-fonction">
+                <p class="texte-fonction">Dégustez au restaurant</p>
+            </div>
+            </button>
+        </section> 
+        <section class="restaurants"><!--Conteneur Restaurants-->
+            <h1 class="titre-index">Restaurants</h1>
+
+            <div class="restaurant-bloc">
+            <article class="restaurant">
+              <div class=img-conteneur>
+              <img src="/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="restaurant-img">
+              <div class="texte-sur-img">Nouveau</div>
+            </div>
+            <div class="restaurant-container">
+              <div class="restaurant-info">
+                <h2 class="sous-titre-1">La palette du goût</h2>
+                <span class="sous-titre-2">Ménilmontant</span>
+              </div>
+              <div class="heart-container">
+              <i class="fa-regular fa-heart fa-lg" style="color: #808080;"></i>
+              </div>
+            </div>
+            </article>
+          
+          </div> 
+    </section>
+    </main>
+    <footer class="footer">
+        <nav>
+          <div class="logo-conteneur"><img src="/images/logo/ohmyfood_footer.png" alt="logo-ohmyfood" class="logo-ohmyfood-img-footer"></div>
+              <div class="liens-footer">
+                <div class="logos-footer">
+                <i class="fa-solid fa-utensils fa-2xs" style="color: #ffffff;"></i>    
+                <a href="#" target="#" class="liens-caracteristiques">Proposer un restaurant</a>
+                </div>
+                <div>
+                <i class="fa-solid fa-handshake-angle fa-2xs" style="color: #ffffff;"></i>
+                <a href="#" target="#" class="liens-caracteristiques">Devenir partenaire</a>
+                </div>
+                <a href="#" target="#" class="liens-caracteristiques">Mentions légales</a>
+                <a href="#" target="#"class="liens-caracteristiques" >Contact</a>
+              </div>  
+        </nav>
+        
+    </footer>
+</body>
+</html>
+
